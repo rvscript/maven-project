@@ -12,9 +12,9 @@ public class Greeter {
 
   }
 
- /*
-  Comment for greet method per Jenkins
- */
+  /** 
+  * Comment for greet method per Jenkins
+  */
   public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
