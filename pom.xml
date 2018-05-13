@@ -49,7 +49,7 @@
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
         <configuration>
-          <reporting><plugins>
+          <plugins>
             <plugin>
               <artifactId>maven-checkstyle-plugin</artifactId>
             </plugin>
@@ -80,7 +80,6 @@
               <artifactId>taglist-maven-plugin</artifactId>
             </plugin>
           </plugins>
-          </reporting>
         </configuration>
       </plugin>
     </plugins>
